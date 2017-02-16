@@ -1,6 +1,6 @@
 call plug#begin('~/.vim/plugged')
 
-Plug 'ctrlpvim/ctrlp.vim'
+Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'scrooloose/nerdtree'
 Plug 'itchyny/lightline.vim'
 Plug 'tpope/vim-surround'
@@ -12,5 +12,7 @@ Plug 'mhinz/vim-startify'
 Plug 'terryma/vim-expand-region'
 Plug 'reedes/vim-pencil'
 Plug 'ervandew/supertab'
+
+map <c-p> :FZF<cr>
 
 call plug#end()
