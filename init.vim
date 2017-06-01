@@ -16,4 +16,9 @@ Plug 'ervandew/supertab'
 
 map <c-p> :FZF<cr>
 
+set number
+set cursorline
+
+map <c-l> :noh<cr>
+
 call plug#end()
