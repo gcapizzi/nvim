@@ -17,7 +17,8 @@ Plug 'terryma/vim-expand-region'
 Plug 'reedes/vim-pencil'
 Plug 'ervandew/supertab'
 
-map <c-p> :FZF<cr>
+map <c-p> :Files<cr>
+map <c-a> :Ag<cr>
 
 set number
 set cursorline
