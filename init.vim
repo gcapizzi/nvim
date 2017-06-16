@@ -16,13 +16,17 @@ Plug 'mhinz/vim-signify'
 Plug 'terryma/vim-expand-region'
 Plug 'reedes/vim-pencil'
 Plug 'ervandew/supertab'
+Plug 'dracula/vim'
 
 map <c-p> :Files<cr>
 map <c-a> :Ag<cr>
+
+call plug#end()
+
+colorscheme dracula
 
 set number
 set cursorline
 
 map <c-l> :noh<cr>
 
-call plug#end()
