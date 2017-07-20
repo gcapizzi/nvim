@@ -28,4 +28,4 @@ set cursorline
 
 map <c-l> :noh<cr>
 map <c-p> :Files<cr>
-map <c-a> :Ag<cr>
+map <c-j> :Ag<cr>
