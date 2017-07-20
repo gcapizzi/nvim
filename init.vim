@@ -19,9 +19,6 @@ Plug 'ervandew/supertab'
 Plug 'dracula/vim'
 Plug 'vim-syntastic/syntastic'
 
-map <c-p> :Files<cr>
-map <c-a> :Ag<cr>
-
 call plug#end()
 
 colorscheme dracula
@@ -30,4 +27,5 @@ set number
 set cursorline
 
 map <c-l> :noh<cr>
-
+map <c-p> :Files<cr>
+map <c-a> :Ag<cr>
