@@ -17,6 +17,7 @@ Plug 'terryma/vim-expand-region'
 Plug 'reedes/vim-pencil'
 Plug 'ervandew/supertab'
 Plug 'dracula/vim'
+Plug 'vim-syntastic/syntastic'
 
 map <c-p> :Files<cr>
 map <c-a> :Ag<cr>
