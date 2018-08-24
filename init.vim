@@ -17,6 +17,7 @@ Plug 'reedes/vim-pencil'
 Plug 'ervandew/supertab'
 Plug 'dracula/vim', { 'as': 'dracula' }
 Plug 'vim-syntastic/syntastic'
+Plug 'wincent/terminus'
 
 call plug#end()
 
