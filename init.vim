@@ -15,11 +15,13 @@ Plug 'mhinz/vim-signify'
 Plug 'terryma/vim-expand-region'
 Plug 'reedes/vim-pencil'
 Plug 'ervandew/supertab'
-Plug 'dracula/vim'
+Plug 'dracula/vim', { 'as': 'dracula' }
 Plug 'vim-syntastic/syntastic'
 
 call plug#end()
 
+" https://github.com/dracula/vim/issues/65
+let g:dracula_colorterm = 0
 colorscheme dracula
 
 set number
