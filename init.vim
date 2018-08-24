@@ -31,3 +31,6 @@ set cursorline
 map <c-l> :noh<cr>
 map <c-p> :Files<cr>
 map <c-j> :Ag<cr>
+
+" https://github.com/junegunn/fzf#respecting-gitignore
+let $FZF_DEFAULT_COMMAND = 'ag -g ""'
