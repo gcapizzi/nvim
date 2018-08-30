@@ -11,7 +11,7 @@ if [ -e $endpath/.git ] ; then
     cd $endpath && git pull
 else
     echo "> clone repo"
-    git clone http://github.com/gcapizzi/nvim.git $endpath
+    git clone git@github.com:gcapizzi/nvim.git $endpath
 fi
 
 echo "> install vim-plug"
