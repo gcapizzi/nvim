@@ -16,8 +16,8 @@ Plug 'terryma/vim-expand-region'
 Plug 'reedes/vim-pencil'
 Plug 'ervandew/supertab'
 Plug 'dracula/vim', { 'as': 'dracula' }
-Plug 'vim-syntastic/syntastic'
 Plug 'wincent/terminus'
+Plug 'neomake/neomake'
 
 call plug#end()
 
@@ -34,3 +34,6 @@ map <c-j> :Ag<cr>
 
 " https://github.com/junegunn/fzf#respecting-gitignore
 let $FZF_DEFAULT_COMMAND = 'ag -g ""'
+
+" Neomake
+call neomake#configure#automake('w')
