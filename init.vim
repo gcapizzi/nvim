@@ -19,11 +19,19 @@ Plug 'dracula/vim', { 'as': 'dracula' }
 Plug 'wincent/terminus'
 Plug 'w0rp/ale'
 
+" Rust
+Plug 'rust-lang/rust.vim'
+
 call plug#end()
 
 " https://github.com/dracula/vim/issues/65
 let g:dracula_colorterm = 0
 colorscheme dracula
+
+" Ale
+let g:ale_fixers = {'rust': ['rustfmt']}
+let g:ale_linters = {'rust': ['rls']}
+let g:ale_fix_on_save = 1
 
 set number
 set cursorline
