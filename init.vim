@@ -17,7 +17,7 @@ Plug 'reedes/vim-pencil'
 Plug 'ajh17/VimCompletesMe'
 Plug 'dracula/vim', { 'as': 'dracula' }
 Plug 'wincent/terminus'
-Plug 'neomake/neomake'
+Plug 'w0rp/ale'
 
 call plug#end()
 
@@ -34,6 +34,3 @@ map <c-j> :Ag<cr>
 
 " https://github.com/junegunn/fzf#respecting-gitignore
 let $FZF_DEFAULT_COMMAND = 'ag -g ""'
-
-" Neomake
-call neomake#configure#automake('w')
