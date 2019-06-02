@@ -14,7 +14,7 @@ Plug 'tpope/vim-vinegar'
 Plug 'mhinz/vim-signify'
 Plug 'terryma/vim-expand-region'
 Plug 'reedes/vim-pencil'
-Plug 'ervandew/supertab'
+Plug 'ajh17/VimCompletesMe'
 Plug 'dracula/vim', { 'as': 'dracula' }
 Plug 'wincent/terminus'
 Plug 'neomake/neomake'
