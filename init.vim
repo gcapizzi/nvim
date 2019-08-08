@@ -13,6 +13,7 @@ Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-vinegar'
 Plug 'mhinz/vim-signify'
 Plug 'terryma/vim-expand-region'
+Plug 'terryma/vim-multiple-cursors'
 Plug 'reedes/vim-pencil'
 Plug 'ajh17/VimCompletesMe'
 Plug 'dracula/vim', { 'as': 'dracula' }
