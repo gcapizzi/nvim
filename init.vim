@@ -37,10 +37,17 @@ let g:ale_linters = {'rust': ['rls']}
 let g:ale_fix_on_save = 1
 let g:ale_virtualtext_cursor = 1
 
+" Settings and mappings
+
 colorscheme dracula
 
-set number
 set cursorline
+set hidden
+set ignorecase
+set mouse=a
+set number
+set smartcase
+set undofile
 
 map <c-l> :noh<cr>
 map <c-p> :Files<cr>
