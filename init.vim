@@ -25,14 +25,20 @@ Plug 'rust-lang/rust.vim'
 
 call plug#end()
 
+" Dracula
 " https://github.com/dracula/vim/issues/65
 let g:dracula_colorterm = 0
-colorscheme dracula
+
+" FZF
+" https://github.com/junegunn/fzf#respecting-gitignore
+let $FZF_DEFAULT_COMMAND = 'ag -g ""'
 
 " Ale
 let g:ale_fixers = {'rust': ['rustfmt']}
 let g:ale_linters = {'rust': ['rls']}
 let g:ale_fix_on_save = 1
+
+colorscheme dracula
 
 set number
 set cursorline
@@ -40,6 +46,3 @@ set cursorline
 map <c-l> :noh<cr>
 map <c-p> :Files<cr>
 map <c-j> :Ag<cr>
-
-" https://github.com/junegunn/fzf#respecting-gitignore
-let $FZF_DEFAULT_COMMAND = 'ag -g ""'
