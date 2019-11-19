@@ -19,8 +19,6 @@ Plug 'ajh17/VimCompletesMe'
 Plug 'dracula/vim', { 'as': 'dracula' }
 Plug 'wincent/terminus'
 Plug 'w0rp/ale'
-
-" Rust
 Plug 'rust-lang/rust.vim'
 
 call plug#end()
