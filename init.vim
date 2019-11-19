@@ -23,10 +23,6 @@ Plug 'rust-lang/rust.vim'
 
 call plug#end()
 
-" Dracula
-" https://github.com/dracula/vim/issues/65
-let g:dracula_colorterm = 0
-
 " FZF
 " https://github.com/junegunn/fzf#respecting-gitignore
 let $FZF_DEFAULT_COMMAND = 'ag -g ""'
@@ -47,6 +43,7 @@ set ignorecase
 set mouse=a
 set number
 set smartcase
+set termguicolors
 set undofile
 
 map <c-l> :noh<cr>
