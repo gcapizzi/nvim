@@ -10,7 +10,6 @@ Plug 'tpope/vim-eunuch'
 Plug 'tpope/vim-sleuth'
 Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-fugitive'
-Plug 'tpope/vim-vinegar'
 Plug 'mhinz/vim-signify'
 Plug 'mhinz/vim-startify'
 Plug 'terryma/vim-expand-region'
@@ -21,6 +20,7 @@ Plug 'dracula/vim', { 'as': 'dracula' }
 Plug 'wincent/terminus'
 Plug 'w0rp/ale'
 Plug 'rust-lang/rust.vim'
+Plug 'justinmk/vim-dirvish'
 
 call plug#end()
 
@@ -35,6 +35,11 @@ let g:ale_virtualtext_cursor = 1
 
 " Startify
 let g:startify_change_to_vcs_root = 1
+
+" Dirvish
+autocmd FileType dirvish
+  \  nnoremap <silent><buffer> t :call dirvish#open('tabedit', 0)<cr>
+  \ |xnoremap <silent><buffer> t :call dirvish#open('tabedit', 0)<cr>
 
 " Settings and mappings
 
