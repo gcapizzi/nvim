@@ -23,7 +23,7 @@ call plug#end()
 
 " FZF
 " https://github.com/junegunn/fzf#respecting-gitignore
-let $FZF_DEFAULT_COMMAND = 'ag -g ""'
+let $FZF_DEFAULT_COMMAND = 'rg --files'
 
 " Ale
 let g:ale_fixers = {'rust': ['rustfmt']}
@@ -52,4 +52,4 @@ set undofile
 
 map <c-l> :noh<cr>
 map <c-p> :Files<cr>
-map <c-j> :Ag<cr>
+map <c-j> :Rg<cr>
