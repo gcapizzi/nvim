@@ -14,7 +14,6 @@ Plug 'mhinz/vim-signify'
 Plug 'mhinz/vim-startify'
 Plug 'terryma/vim-expand-region'
 Plug 'terryma/vim-multiple-cursors'
-Plug 'reedes/vim-pencil'
 Plug 'ajh17/VimCompletesMe'
 Plug 'dracula/vim', { 'as': 'dracula' }
 Plug 'wincent/terminus'
