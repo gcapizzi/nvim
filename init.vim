@@ -47,7 +47,6 @@ colorscheme dracula
 set cursorline
 set hidden
 set ignorecase
-set mouse=a
 set number
 set smartcase
 set termguicolors
