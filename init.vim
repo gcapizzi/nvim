@@ -12,6 +12,7 @@ Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-fugitive'
 Plug 'mhinz/vim-signify'
 Plug 'mhinz/vim-startify'
+Plug 'mhinz/vim-grepper'
 Plug 'ajh17/VimCompletesMe'
 Plug 'dracula/vim', { 'as': 'dracula' }
 Plug 'wincent/terminus'
@@ -53,3 +54,4 @@ set undofile
 map <c-l> :noh<cr>
 map <c-p> :Files<cr>
 map <c-j> :Rg<cr>
+map <c-k> :GrepperRg 
