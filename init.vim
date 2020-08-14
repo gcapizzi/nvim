@@ -52,7 +52,7 @@ set smartcase
 set termguicolors
 set undofile
 
-map <c-l> :noh<cr>
-map <c-p> :Files<cr>
-map <c-j> :Rg<cr>
-map <c-k> :GrepperRg 
+nnoremap <c-l> :noh<cr>
+nnoremap <c-p> :Files<cr>
+nnoremap <c-j> :Rg<cr>
+nnoremap <c-k> :GrepperRg 
