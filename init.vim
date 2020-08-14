@@ -30,6 +30,7 @@ let $FZF_DEFAULT_COMMAND = 'rg --files'
 let g:ale_fixers = {'rust': ['rustfmt']}
 let g:ale_fix_on_save = 1
 let g:ale_virtualtext_cursor = 1
+let g:ale_completion_enabled = 1
 
 " Startify
 let g:startify_change_to_vcs_root = 1
