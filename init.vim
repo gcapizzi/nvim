@@ -56,3 +56,7 @@ nnoremap <c-l> :noh<cr>
 nnoremap <c-p> :Files<cr>
 nnoremap <c-j> :Rg<cr>
 nnoremap <c-k> :GrepperRg 
+
+nnoremap <silent> gd :ALEGoToDefinition<cr>
+nnoremap <silent> gh :ALEHover<cr>
+nnoremap <silent> gr :ALEFindReferences<cr>
