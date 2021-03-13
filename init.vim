@@ -18,6 +18,7 @@ Plug 'dracula/vim', { 'as': 'dracula' }
 Plug 'wincent/terminus'
 Plug 'justinmk/vim-dirvish'
 Plug 'neovim/nvim-lspconfig'
+Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 
 call plug#end()
 
@@ -40,6 +41,27 @@ nnoremap <silent> ga <cmd>lua vim.lsp.buf.code_action()<cr>
 nnoremap <silent> gR <cmd>lua vim.lsp.buf.rename()<cr>
 nnoremap <silent> g0 <cmd>lua vim.lsp.buf.document_symbol()<cr>
 nnoremap <silent> gW <cmd>lua vim.lsp.buf.workspace_symbol()<cr>
+
+" Treesitter
+lua <<EOF
+require'nvim-treesitter.configs'.setup {
+  ensure_installed = "go",
+  highlight = {
+    enable = true
+  },
+  incremental_selection = {
+    enable = true,
+    keymaps = {
+      node_incremental = "=",
+      node_decremental = "-",
+      scope_incremental = "+",
+    },
+  },
+  indent = {
+    enable = true
+  }
+}
+EOF
 
 " Startify
 let g:startify_change_to_vcs_root = 1
