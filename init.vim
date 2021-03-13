@@ -17,6 +17,7 @@ Plug 'ajh17/VimCompletesMe'
 Plug 'dracula/vim', { 'as': 'dracula' }
 Plug 'wincent/terminus'
 Plug 'justinmk/vim-dirvish'
+Plug 'neovim/nvim-lspconfig'
 
 call plug#end()
 
