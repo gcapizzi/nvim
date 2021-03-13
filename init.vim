@@ -17,7 +17,6 @@ Plug 'ajh17/VimCompletesMe'
 Plug 'dracula/vim', { 'as': 'dracula' }
 Plug 'wincent/terminus'
 Plug 'w0rp/ale'
-Plug 'rust-lang/rust.vim'
 Plug 'justinmk/vim-dirvish'
 
 call plug#end()
